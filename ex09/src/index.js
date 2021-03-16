@@ -1,11 +1,13 @@
 // Only change code below this line
 
 function functionElse(num) {
+  var result;
   if (num <= 5) {
     return "5 or smaller";
   } else {
     return "Bigger than 5";
   }
+  return result;
 }
 
 console.log(functionElse(4));
